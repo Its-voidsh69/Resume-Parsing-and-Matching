@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 🧠 Resume and Job Description Matching System
-=======
-<!-- # 🧠 Resume and Job Description Matching System
->>>>>>> 114949d (approach 2)
 
 A simple and effective resume-job matcher built with Python, Flask, and basic NLP techniques. This project matches resumes to job descriptions (and vice versa) using TF-IDF vectorization and cosine similarity.
 
@@ -14,23 +10,18 @@ A simple and effective resume-job matcher built with Python, Flask, and basic NL
 - ✨ Clean and responsive Bootstrap-based UI with improved styling and file upload support.
 
 ## 📂 Project Structure
-<<<<<<< HEAD
+
 ```
-=======
->>>>>>> 114949d (approach 2)
 .
 ├── app.py # Flask application
 ├── templates/
 │ ├── matchresume.html # UI for job → resume matching
 │ └── matchjob.html # UI for resume → job matching
 ├── uploads/ # Temporarily stores uploaded files
-<<<<<<< HEAD
 └── README.md
 ```
-=======
-└── README.md 
 
->>>>>>> 114949d (approach 2)
+
 ## 🚀 How It Works
 
 1. **Job-to-Resume Matching**
@@ -57,8 +48,8 @@ Install the dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
-
 🖥️ Running the App
+
 python app.py
 Visit http://localhost:5000 in your browser.
 
