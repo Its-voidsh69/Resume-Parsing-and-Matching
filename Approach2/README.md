@@ -42,14 +42,15 @@ This project implements an end-to-end solution for:
 ```text
 Resume: "Skills: Python, SQL, Machine Learning. Education: BS CS. Experience: 4 years"
 Job:    "Data Scientist: Needs Python, ML, Statistics. Requires BS CS. Min 3 years"
-🔧 2. Text Preprocessing
 
+🔧 2. Text Preprocessing
 Before: "Required Skills: Python, Machine Learning!"
 After:  "required skills python machine learning"
+
 📊 3. Vectorization
 Converts text into TF-IDF vectors.
-
 TF-IDF: Python → 0.85, Machine Learning → 0.90
+
 🧠 4. Similarity Scoring
 Uses cosine similarity to compare resumes with jobs.
 Resume-Job Similarity: 0.87
@@ -57,9 +58,6 @@ Resume-Job Similarity: 0.87
 🎯 5. Detailed Matching
 Computes percentage match:
 
-text
-Copy
-Edit
 Skills:     67% (2/3 matched)
 Education:  100%
 Experience: 100% (4 > 3 yrs)
@@ -70,13 +68,3 @@ Final Score: 81.4%
 Predicts job category using Random Forest:
 
 Predicted Category: Data Science
-
-📊 Evaluation Results
-Component	Metric	Value
-Recommendation System	Precision	78%
-Recall	82%
-F1-Score	80%
-Classification Model	Accuracy	68%
-DataSci Precision	71%
-DataSci Recall	88%
-Matching System	Overall Match Accuracy	89%
