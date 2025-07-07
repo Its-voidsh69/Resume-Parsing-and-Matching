@@ -13,7 +13,7 @@ A simple and effective resume-job matcher built with Python, Flask, and basic NL
 
 ```
 .
-├── app.py # Flask application
+├── main.py # Flask application
 ├── templates/
 │ ├── matchresume.html # UI for job → resume matching
 │ └── matchjob.html # UI for resume → job matching
