@@ -10,6 +10,7 @@ A simple and effective resume-job matcher built with Python, Flask, and basic NL
 - ✨ Clean and responsive Bootstrap-based UI with improved styling and file upload support.
 
 ## 📂 Project Structure
+```
 .
 ├── app.py # Flask application
 ├── templates/
@@ -17,7 +18,7 @@ A simple and effective resume-job matcher built with Python, Flask, and basic NL
 │ └── matchjob.html # UI for resume → job matching
 ├── uploads/ # Temporarily stores uploaded files
 └── README.md
-
+```
 ## 🚀 How It Works
 
 1. **Job-to-Resume Matching**
