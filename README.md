@@ -9,8 +9,14 @@ A simple and effective resume-job matcher built with Python, Flask, and basic NL
 - 📄 **Resume Parsing**: Extracts sections like Skills, Experience, Education, and Projects using simple regex.
 - ✨ Clean and responsive Bootstrap-based UI with improved styling and file upload support.
 
-<pre><code>```text 📂 Project Structure . ├── app.py # Flask application ├── templates/ │ ├── matchresume.html # UI for job → resume matching 
-  │ └── matchjob.html # UI for resume → job matching ├── uploads/ # Temporarily stores uploaded files └── README.md ```</code></pre>
+## 📂 Project Structure
+.
+├── app.py # Flask application
+├── templates/
+│ ├── matchresume.html # UI for job → resume matching
+│ └── matchjob.html # UI for resume → job matching
+├── uploads/ # Temporarily stores uploaded files
+└── README.md
 
 ## 🚀 How It Works
 
